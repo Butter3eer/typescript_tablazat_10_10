@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app" class="m-3">
+
+      <div class="m-2">
+        <label for="name">Név:
+          <input type="text" id="name">
+        </label>
+      </div>
+
+      <div class="m-2">
+        <label for="price">Ár:
+          <input type="number" id="price">
+        </label>
+      </div>
+
+      <div class="m-2">
+        <label for="productCode">Termék kód:
+          <input type="text" id="productCode">
+        </label>
+      </div>
+
+      <p id="errorMessage"></p>
+      <button class="btn btn-warning" id="submit">Regisztrálás</button>
+      
+      <table class="table table-warning table-striped" id="list">
+        
+      </table>
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
